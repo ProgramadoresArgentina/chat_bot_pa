@@ -1,40 +1,47 @@
-### CHATBOT Whatsapp (Baileys Provider)
-
 <p align="center">
-  <img width="300" src="https://i.imgur.com/Oauef6t.png">
+  <img src="https://i.ibb.co/GR24xPk/Logo-PA.png" alt="Programadores Argentina Logo" height="180">
 </p>
 
+# CHATBOT Whatsapp de Soporte Comunitario
 
-**Con esta librería, puedes construir flujos automatizados de conversación de manera agnóstica al proveedor de WhatsApp,** configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  Además, puedes configurar fácilmente disparadores que te ayudaran a expandir las funcionalidades sin límites. **[Ver más informacion](https://bot-whatsapp.netlify.app/)**
+¡Bienvenido al Chatbot de Soporte Comunitario desarrollado con Bailys y MongoDB!
 
-```js
-const main = async () => {
-    const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+## Descripción del Proyecto
 
-    const adapterProvider = createProvider(BaileysProvider, {
-        accountSid: process.env.ACC_SID,
-        authToken: process.env.ACC_TOKEN,
-        vendorNumber: process.env.ACC_VENDOR,
-    })
+Este proyecto tiene como objetivo proporcionar a nuestra comunidad una herramienta eficiente para obtener respuestas rápidas y precisas a sus consultas. Nuestro chatbot utiliza la potente plataforma de procesamiento del lenguaje natural proporcionada por el proveedor Bailys y se basa en una sólida base de datos MongoDB para almacenar y recuperar información relevante.
 
-    createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    })
-}
+## Características Destacadas
+
+- **Respuestas Personalizadas:** El chatbot está diseñado para ofrecer respuestas relevantes y personalizadas a las preguntas de nuestra comunidad, mejorando la experiencia de usuario.
+- **Escalabilidad:** MongoDB, una base de datos NoSQL altamente escalable, garantiza que podamos manejar un gran volumen de datos sin comprometer el rendimiento.
+
+- **Fácil Integración:** La arquitectura de código abierto de este proyecto permite la integración sencilla con otras herramientas y servicios, lo que facilita la expansión y personalización según nuestras necesidades.
+
+## Contribución
+
+¡Agradecemos y animamos a la comunidad a contribuir en este proyecto! Si encuentras errores, mejoras potenciales o quieres agregar nuevas características, no dudes en hacerlo a través de pull requests.
+
+## Contacto
+
+Para cualquier pregunta o comentario, no dudes en contactar a nuestro equipo de desarrollo en ....
+
+¡Esperamos que este chatbot sea de gran utilidad para nuestra comunidad!
+
+## RUN PROJECT
+
 ```
-
-```
-npm install
-npm start
+step 1:
+    npm install
+step 2:
+    runing docker
+step 3:
+    docker-compose up -d
+step 4:
+    npm start
 ```
 
 ---
+
 ## Recursos
-- [📄 Documentación](https://bot-whatsapp.netlify.app/)
-- [🚀 Roadmap](https://github.com/orgs/codigoencasa/projects/1)
-- [💻 Discord](https://link.codigoencasa.com/DISCORD)
-- [👌 Twitter](https://twitter.com/leifermendez)
-- [🎥 Youtube](https://www.youtube.com/watch?v=5lEMCeWEJ8o&list=PL_WGMLcL4jzWPhdhcUyhbFU6bC0oJd2BR)
+
+- [📄 Documentación Libreria](https://bot-whatsapp.netlify.app/)
