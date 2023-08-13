@@ -1,0 +1,74 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493541397317@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B7B14E33297264F6C8',
+    participant: undefined
+  },
+  messageTimestamp: 1691884750,
+  pushName: 'Herediadev',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Herediadev',
+  body: 'hola',
+  from: '5493541397317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493541397317@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0AAF9A91D44180DE484',
+    participant: undefined
+  },
+  messageTimestamp: 1691884757,
+  pushName: 'Herediadev',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'inicio',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Herediadev',
+  body: 'inicio',
+  from: '5493541397317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493541397317@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB069A234192425B71327',
+    participant: undefined
+  },
+  messageTimestamp: 1691884759,
+  pushName: 'Herediadev',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493541397317'
+}

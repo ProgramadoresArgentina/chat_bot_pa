@@ -14,7 +14,6 @@ const flowPrincipal = addKeyword(KEYS_FLOWS.principal)
       capture: true,
     },
     async (ctx, { fallBack }) => {
-      console.log(ctx);
       if (!ctx.body.includes("@")) {
         return fallBack();
       }
